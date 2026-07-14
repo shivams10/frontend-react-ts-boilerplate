@@ -8,7 +8,7 @@ import viteLogo from 'assets/vite.svg';
 import './App.css';
 
 const initialData: Title = {
-  title: 'GKMIT React Boilerplate',
+  title: 'React Boilerplate',
 };
 
 function App() {

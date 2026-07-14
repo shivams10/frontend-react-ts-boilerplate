@@ -8,7 +8,7 @@ import { render, screen, userEvent } from 'utils/test-utils';
 describe('Renders main page correctly', async () => {
   it('Should render the title', async () => {
     render(<App />);
-    expect(screen.getByText('GKMIT React Boilerplate')).toBeInTheDocument();
+    expect(screen.getByText('React Boilerplate')).toBeInTheDocument();
   });
 
   it('Should increase count on click', async () => {
